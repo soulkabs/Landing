@@ -175,9 +175,10 @@ header {
   padding: 8px 14px 8px 14px;
   border-radius: 50%;
   background-color: #81868e; }
-
-.active {
-  background-color: #19bd9a; }
+  .images__wrap:active {
+    background-color: #19bd9a; }
+  .images__wrap:hover {
+    background-color: #19bd9a; }
 
 .margin_right27_left27 {
   margin: 0px 27px; }

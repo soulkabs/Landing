@@ -21,10 +21,14 @@
 	padding: 8px 14px 8px 14px;
 	border-radius: 50%;
 	background-color: $grey;
-}
 
-.active {
-	background-color: $turquoise;
+	&:active {
+		background-color: $turquoise;
+	}
+
+	&:hover {
+		background-color: $turquoise;
+	}
 }
 
 .margin_right27_left27 {
