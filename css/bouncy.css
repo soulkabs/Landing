@@ -1,0 +1,45 @@
+/*---------------------BOUNCY------------------------*/
+.bouncy {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 52% 25%;
+  grid-template-columns: 52% 25%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.main__bouncy {
+  padding: 80px 0px 55px;
+  max-width: 835px; }
+
+.padding_top_bot {
+  padding: 34px 0px 50px; }
+
+.info__title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 4px; }
+
+.info__text {
+  color: #81868e;
+  font-size: 0.875em; }
+
+.moreInfo {
+  display: none; }
+
+.margin_top_30 {
+  margin-top: 30px; }
+
+.button {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 7px 28px 6px;
+  border-radius: 25px; }
+
+.button_black {
+  border: 1px solid #333b46; }
+  .button_black:hover {
+    background-color: #19bd9a;
+    color: #fff;
+    border: none; }

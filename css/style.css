@@ -477,6 +477,9 @@ header {
   .dot:active {
     background-color: #19bd9a; }
 
+.active {
+  background-color: #19bd9a; }
+
 .fade {
   -webkit-animation-name: fade;
   animation-name: fade;

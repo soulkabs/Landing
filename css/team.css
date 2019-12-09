@@ -1,0 +1,108 @@
+/*--------------------------THE TEAM---------------------------------*/
+.team {
+  max-width: 1030px;
+  display: none;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #81868e; }
+
+.team__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: right; }
+
+.team__title {
+  font-size: 1.25em;
+  color: black; }
+
+.team__subTitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.875em;
+  font-style: oblique; }
+
+.subTitleWrap {
+  padding: 8px 0px 33px; }
+
+.team__text {
+  font-size: 0.875em; }
+
+.skillsWrap {
+  padding-top: 45px; }
+
+.team__procent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1em;
+  letter-spacing: 0px; }
+
+.team__procent:not(:nth-child(1)) {
+  padding-top: 33px; }
+
+.myProgress {
+  width: 100%;
+  background-color: #e1e4e9; }
+
+.myBar {
+  height: 4px;
+  background-color: #19bd9a; }
+
+.pad_top60 {
+  padding-top: 60px; }
+
+.dots {
+  text-align: center; }
+
+.dot {
+  margin-right: 3px;
+  height: 6px;
+  width: 6px;
+  border: 2px solid #19bd9a;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease; }
+  .dot:active {
+    background-color: #19bd9a; }
+
+.active {
+  background-color: #19bd9a; }
+
+.fade {
+  -webkit-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
