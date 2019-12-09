@@ -1,0 +1,76 @@
+/* -------------------------CONTACT US-------------------------- */
+.inner3 {
+  max-width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.blockContact {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.blockContact__img {
+  width: 285px;
+  height: 145px;
+  position: relative; }
+
+.blockContact__svg {
+  position: relative;
+  top: -90px; }
+
+.blockContactWrap {
+  padding-bottom: 20px; }
+
+.blockContact__text {
+  text-align: center;
+  text-transform: uppercase; }
+
+.pad_bot_25 {
+  padding-bottom: 25px; }
+
+.submit {
+  max-width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .submit button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #19bd9a;
+    padding: 13px 50px;
+    border: none;
+    cursor: pointer; }
+    .submit button:hover {
+      opacity: 0.9; }
+  .submit form {
+    margin: 30px 0px; }
+  .submit textarea {
+    width: 100%;
+    height: 190px;
+    color: #81868e; }
+
+.submit__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .submit__inner form label input {
+    width: 247px;
+    padding: 12px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #81868e; }

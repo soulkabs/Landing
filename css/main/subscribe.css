@@ -1,0 +1,22 @@
+/*-------------------SUBSCRIBE US--------------------------------*/
+.subscribe {
+  background-image: url("../img/Layer-449.jpg");
+  background-size: cover; }
+
+form {
+  text-align: center; }
+  form input {
+    width: 335px;
+    padding: 12px 20px;
+    border: 1px solid #81868e;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff; }
+  form button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #19bd9a;
+    padding: 13px 50px;
+    border: none;
+    cursor: pointer; }
+    form button:hover {
+      opacity: 0.9; }

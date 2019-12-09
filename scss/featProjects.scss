@@ -1,0 +1,37 @@
+@import "variabless";
+@import "mixin";
+
+/*-----------------------FEATURED PROJECTS------------------------------*/
+.main__info {
+	padding-top: 80px;
+}
+
+.works{
+	display: flex;
+}
+
+.works__img {
+	cursor: pointer;
+	width: 33.3%;
+	height: 319px;
+}
+
+.footerDiv {
+	background-image: url("../img/Layer-85.jpg");
+	background-size: cover;
+	color: $white;
+}
+
+.innerFooter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footerDiv__innerFooter {
+	padding: 38px 0px;
+}
+
+.button_white {
+	@include buttonWhite;
+}

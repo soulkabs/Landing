@@ -1,0 +1,247 @@
+@media only screen and (max-width: 767px) {
+  * {
+    font-size: 14px; }
+  .header__navigation {
+    padding: 37px 2% 0; }
+  .list__item {
+    display: none;
+    border: none;
+    border-radius: 0px; }
+  .list_center {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-bottom: 0px; }
+  .navMenu__mobile {
+    cursor: pointer;
+    display: block;
+    text-align: right; }
+    .navMenu__mobile a {
+      font-size: 20px;
+      font-weight: bold; }
+  .navMenu__mobile2 {
+    cursor: pointer;
+    display: block;
+    text-align: right; }
+    .navMenu__mobile2 a {
+      color: #19bd9a;
+      font-size: 35px;
+      font-weight: bold; }
+  .responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .responsive .list__item {
+      cursor: pointer;
+      display: block;
+      text-align: right; }
+  .header__lable {
+    padding-top: 55px;
+    padding-bottom: 105px; }
+  .lable {
+    width: 100%; }
+  .main__bouncy {
+    padding: 40px 2% 35px; }
+  .bouncy {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto; }
+  .padding_top_bot {
+    padding: 0px 0px 30px; }
+  .margin_top_30 {
+    margin: 30px 0; }
+  .pad_top40_bot60 {
+    padding: 30px 0 40px; }
+  .aboutUsDetails__images {
+    margin-bottom: 40px; }
+  .mainInfo {
+    padding: 0 2%; }
+  .wrapper {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto; }
+    .wrapper .mainInfo__text {
+      padding-bottom: 15px;
+      line-height: normal; }
+    .wrapper article {
+      font-size: 1em; }
+  .main__info {
+    padding-top: 40px; }
+  .works__img {
+    height: 100px; }
+  .innerFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .innerFooter span {
+      padding-bottom: 10px; }
+  .footerDiv__innerFooter {
+    text-align: center; }
+  .ourServices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; }
+  .ourServices__images {
+    margin-right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .pad_top_bot_40 {
+    padding: 20px 0px; }
+  .ourServices__skills {
+    margin: 20px auto 0px; }
+  .skills__percent {
+    padding: 20px 14px;
+    margin: 0px 0px 10px 0px; }
+  .teamQuotes__inner {
+    padding: 40px 2%; }
+  .pad_55_200_30 {
+    padding: 25px 0 15px 0; }
+  .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .teamQuotes__img {
+    width: 100%;
+    top: 0px; }
+  .teamQuotes__logo {
+    top: 295px; }
+  #portfolio .info .pad_top40_bot60 {
+    padding-bottom: 0px; }
+  .portfolio__column {
+    height: 100px; }
+  .footerDiv2_position {
+    padding: 17px 0px;
+    margin-top: 240px; }
+  .team {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 2%; }
+    .team img {
+      width: 60%; }
+  .team__item {
+    text-align: left;
+    padding-top: 20px; }
+  .subTitleWrap {
+    padding: 4px 0px 15px; }
+  .skillsWrap {
+    padding-top: 25px; }
+  .team__procent:not(:nth-child(1)) {
+    padding-top: 23px; }
+  .dot {
+    margin-right: 8px;
+    height: 12px;
+    width: 12px; }
+  .pad_top60 {
+    padding-top: 40px; }
+  .teamCTA {
+    margin-top: 0px; }
+  .imgWrap {
+    padding-bottom: 15px; }
+  .wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 4.274% 2% 0 2%; }
+  .testimonials__dots {
+    padding: 36px 0px 40px; }
+  .blog .info {
+    padding: 6.667% 2% 8.334%; }
+  .blog__blogNews {
+    margin-left: 10px;
+    padding-bottom: 50px; }
+  .blogNews {
+    display: block; }
+    .blogNews .dots {
+      padding-top: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+  .blogTextWrap {
+    width: 100%;
+    padding: 25px 0px 30px; }
+  .ourPrice {
+    padding: 0px 2%; }
+  .ourPrice__item {
+    width: 32%; }
+  .ourPrice__name {
+    font-size: 0.875em; }
+  .pad_top_bot_25 {
+    padding: 15px 0px; }
+  .inner2 {
+    height: 80px;
+    padding: 20px 5px; }
+  .ourPrice__title {
+    font-size: 1.625em; }
+  .ourPrice__subTitle {
+    font-size: 0.875em; }
+  .ourPrice__items {
+    height: 120px;
+    text-align: left;
+    padding-left: 5px; }
+    .ourPrice__items div {
+      font-size: 10px; }
+  .ourPrice__name2 {
+    font-size: 12px; }
+    .ourPrice__name2 img {
+      width: 20px; }
+  form input {
+    width: 40%;
+    padding: 6px 6px; }
+  form button {
+    padding: 7px 10px; }
+  .inner3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 32.5% 32.5% 32.5%;
+    grid-template-columns: 32.5% 32.5% 32.5%; }
+  .blockContact__img {
+    height: 110px; }
+  .blockContact__svg {
+    top: -70px; }
+  .pad_bot_25 {
+    padding-bottom: 15px; }
+  .blockContactWrap {
+    padding-bottom: 10px; }
+  .blockContact__subTitle {
+    font-size: 0.45em; }
+  .submit__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .submit {
+    text-align: center; }
+  .submit form {
+    margin: 5px 0px; }
+  .submit textarea {
+    width: 261px;
+    height: 100px; }
+  .submit button {
+    padding: 10px 10px;
+    border-radius: 21px;
+    margin: 0 auto; }
+  .footerTextWrap {
+    padding: 10px 0px 15px; } }

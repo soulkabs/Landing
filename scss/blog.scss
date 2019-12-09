@@ -1,0 +1,85 @@
+@import "variabless";
+@import "mixin";
+
+/*-------------------BLOG--------------------------------*/
+.blog {
+	background-image: url("../img/Layer-441.jpg");
+	background-size: cover;
+	color: $grey;
+}
+
+.blog__wrap {
+	max-width: 1170px;
+}
+
+.info__title_white {
+	color: $white;
+}
+
+.blogNews {
+	display: flex;
+}
+
+.blog__blogNews {
+	margin-left: 70px;
+	padding-bottom: 100px;
+}
+
+.blogNews__title {
+	font-size: 20px;
+	color: #e1e4e9;
+}
+.blogNews__subTitle{
+	@include fontName;
+	font-size: 14px;
+	letter-spacing: 0px;
+	font-style: oblique;
+
+	span {
+		@include fontName;
+		font-size: 14px;
+		letter-spacing: 0px;
+		font-style: oblique;
+		color: $turquoise;
+	}
+}
+
+.blogSubWrap {
+	padding: 10px 0px 12px;
+}
+
+.blogNews__subTitle2 {
+	color: #434343;
+	@include fontName;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: none;
+}
+
+.blogTextWrap {
+	width: 55%;
+	padding:55px 0px 50px;
+}
+
+.blogMoreInfo {
+	display: none;
+}
+
+.blogNews__link {
+	cursor: pointer;
+}
+
+.dot_black {
+	margin-bottom: 3px;
+	height: 6px;
+	width: 6px;
+	border: 2px solid $grey;
+	border-radius: 50%;
+	cursor: pointer;
+	display: block;
+	transition: background-color 0.5s ease;
+
+	&:hover {
+		background-color: $grey;
+	}
+}

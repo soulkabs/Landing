@@ -1,0 +1,61 @@
+@import "variabless";
+@import "mixin";
+
+/*--------------------------THE PORTFOLIO---------------------------------*/
+.list_center {
+	justify-content: center;
+	padding-bottom: 60px;
+}
+
+.navMenu__mobile2 {
+	display: none;
+	color: $turquoise;
+}
+
+.list__item_blue {
+	padding: 0px 19px 12px;
+	border-bottom: 2px solid $lightGrey;
+	border-radius: 0px;
+	&:hover {
+		border-bottom: 2px solid $turquoise;
+	}
+}
+
+.portfolio, .footerDiv2 {
+	max-width: 1110px;
+}
+
+.portfolio {
+	display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.portfolio__column {
+	display: flex;
+	flex-direction: column;
+	padding-right: 10px;
+}
+
+.portfolio__column:nth-child(4n) {
+	padding-right: 0px;
+}
+
+.portfolio__img {
+	height: 100%;
+	cursor: pointer;
+}
+
+.portfolio__img:nth-child(2n) {
+	padding: 10px 0px;
+}
+
+.footerDiv2 {
+	background-image: url("../img/Layer-101.jpg");
+	color: $white;
+}
+
+.footerDiv2_position {
+	padding: 57px 0px;
+	text-align: center;
+	margin-top: 40px;
+}

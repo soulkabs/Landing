@@ -1,0 +1,35 @@
+/*-----------------------OUR SERVICES------------------------------*/
+.ourServices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1030px; }
+
+.ourServices__images {
+  margin-right: 40px; }
+
+.margin_top_bot_17 {
+  margin: 17px 0px; }
+
+.pad_top_bot_40 {
+  padding: 40px 0px; }
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center; }
+
+.ourServices__skills {
+  margin: 70px 0 0 40px;
+  color: #81868e; }
+
+.skills__percent {
+  font-size: 30px;
+  border-radius: 50%;
+  border: 3px solid #19bd9a;
+  padding: 40px 34px;
+  margin: 0px 0px 20px 0px; }
+
+.percentMargin {
+  margin: 0 38px 20px 38px; }

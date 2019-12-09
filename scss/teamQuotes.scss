@@ -1,0 +1,57 @@
+@import "variabless";
+@import "mixin";
+
+/*--------------------------TEAM QUOTES---------------------------------*/
+.teamQuotes {
+	background-image: url("../img/Layer-4.jpg");
+	background-size: cover;
+}
+
+.inner {
+	max-width: 1170px;
+	position: relative;
+	display: flex;
+	color: $grey;
+}
+
+.teamQuotes__inner {
+	padding-top: 80px;
+}
+
+.teamQuotes__title {
+	@include fontName;
+}
+
+.pad_55_200_30 {
+	padding: 55px 26.282% 30px 0;
+}
+
+.teamQuotes__text {
+	@include fontText;
+	text-transform: uppercase;
+
+	span {
+		@include fontText;
+		color: $turquoise;
+	}
+}
+
+.teamQuotes__img {
+	position: relative;
+	top: -110px;
+}
+
+.teamQuotes__logo{
+	font-family: 'bigJohn', sans-serif;
+	font-size: 1.875em;
+	color: #dddddd;
+	position: absolute;
+    top: 80px;
+    left: 895px;
+
+    span {
+    	color: $turquoise;
+    	font-family: 'bigJohn', sans-serif;
+		font-size: 1em;
+    }
+}

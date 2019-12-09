@@ -1,0 +1,33 @@
+@mixin font-size-info ($size, $line-height) {
+	font-size: $size;
+	line-height: $line-height;
+}
+
+@mixin fontName {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+@mixin fontText {
+	color: #81868e;
+	font-size: 0.875em;
+}
+
+@mixin buttonBlack {
+	border: 1px solid #333b46;
+	&:hover {
+		background-color: $turquoise;
+		color: $white;
+		border: none;
+	}
+}
+
+@mixin buttonWhite {
+	border: 1px solid $white;
+	color: $white;
+	&:hover {
+		border: 1px solid $turquoise;
+	}
+}

@@ -1,0 +1,13 @@
+@import "variabless";
+@import "mixin";
+
+/*--------------------TEAMCTA-------------------*/
+.teamCTA {
+	background-image: url("../img/Layer-104.jpg");
+	color: $white;
+	margin-top: 0px;
+}
+
+.teamCTA__title {
+	font-size: 1.25em;
+}

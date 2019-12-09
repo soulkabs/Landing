@@ -1,0 +1,45 @@
+@import "variabless";
+@import "mixin";
+/*-----------------------OUR SERVICES------------------------------*/
+.ourServices {
+	display: flex;
+	max-width: 1030px;
+}
+
+.ourServices__images {
+	margin-right: 40px;
+}
+
+.margin_top_bot_17 {
+	margin: 17px 0px;
+}
+
+.pad_top_bot_40 {
+	padding: 40px 0px;
+}
+
+.skills{
+	display: flex;
+	text-align: center;
+}
+
+.skills__item:not(:nth-child(3)){
+	padding-right: 30px;
+}
+
+.ourServices__skills {
+	margin: 70px 0 0 40px;
+	color: $grey;
+}
+
+.skills__percent {
+	font-size: 1.875em;
+	border-radius: 50%;
+	border: 3px solid $turquoise;
+	padding: 40px 34px;
+	margin: 0px 0px 20px 0px;
+}
+
+.percentMargin {
+	margin: 0 38px 20px 38px;
+}

@@ -1,0 +1,38 @@
+@import "variabless";
+@import "mixin";
+
+
+/*--------------------------TESTIMONILAS--------------------------------*/
+.testimonials {
+	max-width: 1170px;
+}
+
+.wrap {
+	display: none;
+	align-items: center;
+    padding: 4.274% 6.838% 0px 8.548%;
+}
+
+.imgWrap{
+	padding-right: 60px;
+}
+
+.testimonials__text{
+	color: $grey;
+}
+
+.testimonials__name {
+	text-transform: uppercase;
+}
+
+.textWrap {
+	padding-top: 25px;
+}
+
+.testimonials__name_color {
+	color: #464646;
+}
+
+.testimonials__dots {
+	padding: 46px 0px 60px;
+}

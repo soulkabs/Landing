@@ -1,0 +1,38 @@
+/*-----------------------FEATURED PROJECTS------------------------------*/
+.main__info {
+  padding-top: 80px; }
+
+.works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.works__img {
+  cursor: pointer;
+  width: 33.3%;
+  height: 319px; }
+
+.footerDiv {
+  background-image: url("../img/Layer-85.jpg");
+  background-size: cover;
+  color: #fff; }
+
+.innerFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.footerDiv__innerFooter {
+  padding: 38px 0px; }
+
+.button_white {
+  border: 1px solid #fff;
+  color: #fff; }
+  .button_white:hover {
+    border: 1px solid #19bd9a; }

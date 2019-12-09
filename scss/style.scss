@@ -1,0 +1,64 @@
+@import "variabless";
+@import "mixin";
+
+@font-face{
+	font-family: 'bigJohn';
+	src: url('../fonts/BIG JOHN.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+a {
+	color: $white;
+	text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.bgColor_white {
+	background-color: $white;
+}
+
+.bgColor_grey {
+	background-color: $lightGrey;
+}
+
+.blockPadding {
+	padding: 6.667% 0 8.334%;
+}
+
+.header__navigation, .lable, .main__bouncy, .aboutUsDetails, .ourServices, .innerFooter, .inner,
+ .portfolio, .footerDiv2, .team, .testimonials, .blog__wrap, .ourPrice, .inner3, .footer, .submit {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.list, .works {
+	display: flex;
+}
+
+@import "header.scss";
+@import "bouncy.scss";
+@import "aboutUsDetails.scss";
+@import "featProjects.scss";
+@import "ourServices.scss";
+@import "teamQuotes.scss";
+@import "portfolio.scss";
+@import "team.scss";
+@import "teamCTA.scss";
+@import "testimonials.scss";
+@import "blog.scss";
+@import "ourPrice.scss";
+@import "subscribe.scss";
+@import "contactUs.scss";
+@import "footer.scss";

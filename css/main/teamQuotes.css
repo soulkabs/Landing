@@ -1,0 +1,49 @@
+/*--------------------------TEAM QUOTES---------------------------------*/
+.teamQuotes {
+  background-image: url("../img/Layer-4.jpg");
+  background-size: cover; }
+
+.inner {
+  max-width: 1170px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #81868e; }
+
+.teamQuotes__inner {
+  padding-top: 80px; }
+
+.teamQuotes__title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px; }
+
+.pad_55_200_30 {
+  padding: 55px 200px 30px 0; }
+
+.teamQuotes__text {
+  color: #81868e;
+  font-size: 14px;
+  text-transform: uppercase; }
+  .teamQuotes__text span {
+    color: #81868e;
+    font-size: 14px;
+    color: #19bd9a; }
+
+.teamQuotes__img {
+  position: relative;
+  top: -110px; }
+
+.teamQuotes__logo {
+  font-family: 'bigJohn', sans-serif;
+  font-size: 30px;
+  color: #dddddd;
+  position: absolute;
+  top: 80px;
+  left: 895px; }
+  .teamQuotes__logo span {
+    color: #19bd9a;
+    font-family: 'bigJohn', sans-serif;
+    font-size: 30px; }

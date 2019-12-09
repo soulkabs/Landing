@@ -1,0 +1,45 @@
+@import "variabless";
+@import "mixin";
+
+/*---------------------BOUNCY------------------------*/
+.bouncy {
+	display: grid;
+	grid-template-columns: 52% 25%;
+	justify-content: space-between; 
+}
+
+.main__bouncy {
+	padding: 80px 0px 55px;
+	max-width: 835px;
+}
+
+.padding_top_bot{
+	padding: 34px 0px 50px;
+}
+
+.info__title {
+	@include fontName;
+}
+
+.info__text {
+	@include fontText;
+}
+
+.moreInfo {
+	display: none;
+}
+
+.margin_top_30 {
+	margin-top: 30px;
+}
+
+.button {
+	cursor: pointer;
+	background-color: rgba(255,255,255,0);
+	padding: 7px 28px 6px;
+	border-radius: 25px;
+}
+
+.button_black{
+	@include buttonBlack;
+}

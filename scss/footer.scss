@@ -1,0 +1,17 @@
+@import "variabless";
+@import "mixin";
+
+/*------------------------- FOOTER -------------------------------*/
+.footerTextWrap{
+	padding: 21px 0px 35px;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+
+	img {
+		width: 27px;
+		padding-right: 10px;
+	}
+}

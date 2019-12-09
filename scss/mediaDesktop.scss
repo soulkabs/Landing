@@ -1,0 +1,81 @@
+@import "variabless";
+@import "mixin";
+
+@media only screen  and (min-width: 768px)  and (max-width : 900px){
+	.header__lable {
+	    padding-top: 105px;
+	    padding-bottom: 167px;
+	}
+
+	.bouncy {
+    	grid-template-columns: 52% 30%;
+	}
+
+	.main__bouncy {
+   		padding: 8% 2% 5%;
+	}
+
+	.blockPadding {
+	    padding: 6.667% 2% 8.334%;
+	}
+
+	.pad_top40_bot60 {
+	    padding: 20px 0px 40px;
+	}
+
+	.aboutUsDetails__images {
+	    margin-bottom: 40px;
+	}
+
+	.ourServices {
+    	align-items: center;
+	}
+
+	.skills__percent {
+	    font-size: 1.1em;
+	    padding: 20px 14px;
+	    margin: 0px 10px 10px 0px;
+	}
+
+	.ourServices__skills {
+	    margin: 0px 0 0 40px;
+	}
+
+	.skills__item:not(:nth-child(3)) {
+    	padding-right: 0px;
+	}
+
+	.teamQuotes__inner {
+	    padding-left: 2%;
+	}
+
+	.innerFooter {
+		display: flex;
+		flex-direction: column;
+
+		span {
+			padding-bottom: 10px;
+		}
+	}
+
+	.list_center {
+	    padding-bottom: 30px;
+	}
+
+	.testimonials__dots {
+	    padding: 26px 0px 40px;
+	}
+
+	.blogTextWrap {
+	    width: 90%;
+	}
+
+	.submit__inner form label input {
+   		width: 200px;
+	}
+
+	.blog__blogNews {
+	    padding-bottom: 60px;
+	    padding-right: 2%;
+	}
+}

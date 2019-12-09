@@ -1,0 +1,13 @@
+@import "variabless";
+@import "mixin";
+@import "mediaDesktop.scss";
+@import "mediaMobile.scss";
+
+@media only screen  and (max-width : 1170px){
+	.teamQuotes__logo {
+		left: calc(895px - (1170px - 100%));
+	}
+}
+
+
+

@@ -1,0 +1,33 @@
+@import "variabless";
+@import "mixin";
+
+/*-------------------SUBSCRIBE US--------------------------------*/
+.subscribe {
+	background-image: url("../img/Layer-449.jpg");
+	background-size: cover;
+}
+
+form {
+	text-align: center;
+
+	input {
+		width: 335px;
+		padding: 12px 20px;
+		border: 1px solid $grey;
+		background-color: rgba(0,0,0,0);
+		color: $white;
+	}
+
+	button {
+		text-transform: uppercase;
+		color: $white;
+		background-color: $turquoise;
+		padding: 13px 50px;
+		border: none;
+		cursor: pointer;
+
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+}

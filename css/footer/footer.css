@@ -1,0 +1,14 @@
+/*------------------------- FOOTER -------------------------------*/
+.footerTextWrap {
+  padding: 21px 0px 35px; }
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .social img {
+    width: 27px;
+    padding-right: 10px; }
