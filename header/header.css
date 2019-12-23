@@ -30,7 +30,7 @@ header {
   display: -ms-flexbox;
   display: flex; }
 
-.navMenu__mobile {
+.mobile {
   display: none; }
 
 .list__item {

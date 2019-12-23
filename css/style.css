@@ -69,7 +69,7 @@ header {
   display: -ms-flexbox;
   display: flex; }
 
-.navMenu__mobile {
+.mobile {
   display: none; }
 
 .list__item {
@@ -340,7 +340,7 @@ header {
   justify-content: center;
   padding-bottom: 60px; }
 
-.navMenu__mobile2 {
+.mobile2 {
   display: none;
   color: #19bd9a; }
 
